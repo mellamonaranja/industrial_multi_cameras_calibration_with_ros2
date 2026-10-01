@@ -2,10 +2,7 @@
 
 Playback of the Overlapping multi camera sequence in the industrial calibration RViz view.
 
-
-https://github.com/user-attachments/assets/bca797e6-4cf1-4868-b9b2-cc25403dc78f
-
-
+https://github.com/user-attachments/assets/c87b0f03-f9db-43ca-8430-fdb283b6c8a2
 
 ## What the video shows
 
