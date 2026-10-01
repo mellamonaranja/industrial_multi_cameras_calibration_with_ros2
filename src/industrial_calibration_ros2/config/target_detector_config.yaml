@@ -1,0 +1,9 @@
+# ChArUco grid target finder
+target_finder:
+  type: CharucoGridTargetFinder
+  rows: 5
+  cols: 5
+  chessboard_dim: 0.040
+  aruco_marker_dim: 0.030
+  dictionary: 11  # DICT_6X6_1000
+  marker_id_offset: 144  # MC-Calib board index 12; each 5x5 board uses 12 markers

@@ -1,0 +1,24 @@
+services:
+  industrial_calibration:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+      args:
+        TAG: jammy
+    environment:
+      DISPLAY: $DISPLAY
+      XAUTHORITY: $XAUTHORITY
+      ROS_LOG_DIR: /tmp
+    container_name: industrial_calibration
+    image: ghcr.io/ros-industrial/industrial_calibration:jammy-main
+    stdin_open: true
+    tty: true
+    network_mode: host
+    privileged: false
+    user: ${CURRENT_UID}  # CURRENT_UID=$(id -u):$(id -g)
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - /etc/hosts:/etc/hosts
+      - /etc/passwd:/etc/passwd:ro
+      - /etc/group:/etc/group:ro
+      - /etc/shadow:/etc/shadow:ro

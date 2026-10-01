@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/icon.jpg</file>
+        <file>icons/frame_target.png</file>
+        <file>icons/frame_camera.png</file>
+        <file>icons/opencv.svg</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,21 @@
+# Image sequences and generated calibration sets
+data/
+
+# Local playback helper
+scripts/publish_board_pose.py
+
+# Colcon / CMake output
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
