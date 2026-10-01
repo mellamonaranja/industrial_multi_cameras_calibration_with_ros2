@@ -1,4 +1,4 @@
-# Cam_001 board detection
+# Board detection
 
 Playback of the Overlapping multi camera sequence in the industrial calibration RViz view.
 
